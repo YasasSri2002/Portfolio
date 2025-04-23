@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body style="background-color: #333;">
+    <div id="header">
+        <nav>
+            <div class="navbar navbar-expand-lg py-3 navbar-dark ">
+                <div class="container">
+                    <a href="" class="navbar-brand" style=" color: var(--headingColor);">YM</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenue">
+                        <span class="navbar-toggler-icon "></span></button>
+                    <div class="collapse navbar-collapse" id="navmenue">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="#hero" class="nav-link text-light">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-light">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-light">Tech stack</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-light">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-light">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--hero components-->
+    <section id="heroComponent" class="section align-self-center my-4">
+        <div class="container-lg d-flex flex-column">
+            <div class="row row-cols-sm-2 row-cols-1 ">
+                <div class="col pb-4 pb-sm-0  d-flex justify-content-center">
+                    <img class="img-fuild w-75 remove-background" src="/public/person1.jpg" alt="">
+                </div>
+                <div class="col  d-grid align-content-sm-center justify-content-center">
+                    <h1 class="text-light">Yasas Medagedara</h1>
+                    <h2 class="text-light">Undergraduate Student</h2>
+                    <button class="btn btn-lg btn-outline-warning rounded-5 m-2">
+                        <a href="public/pdf/yasas medagedara.pdf" target="_blank" style="text-decoration: none; color: var(--buttonColor);">
+                             Download Cv
+                        </a>
+                    </button>
+                    <button class="btn btn-lg btn-outline-warning rounded-5 m-2"
+                    style="color: var(--buttonColor);">
+                        Reach Me!
+                    </button>
+                    <div class="row mt-3">
+                        <div class="col social-icons d-flex justify-content-center">
+                            <i class="bi bi-instagram mx-2 fs-4"></i>
+                            <i class="bi bi-facebook  mx-2 fs-4"></i>
+                            <i class="bi bi-linkedin mx-2 fs-4"></i>
+                            <i class="bi bi-github mx-2 fs-4"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--About me Component-->
+
+        <section id="aboutMeComponent" class="section section-top section-full my-5">
+            <div class="container-lg">
+                <h1 class="text-center heading" style="color: var(--headingColor);">About Me</h1>
+                <div class="row row-cols-sm-2  d-sm-flex align-content-sm-center align-items-center">
+                    <div class="col-md-6 d-grid justify-content-center">
+                        <img class="img-fluid rounded-circle my-img" src="public/my.png" alt="yasas sri">
+                    </div>
+                    <div class="col-md-6 mt-5">
+                        
+                        <P class="lead text-light">An undergraduate software engineer. My ambition is to help tech companies with coding, development, bug fixing, troubleshooting and documentation. Through an internship, I aim to contribute to collaborative projects, continuously learn new technologies and best practices, and support various aspects of software development, including unit testing, software maintenance, feature implementation, version control, debugging, deployment support, and customer support. I bring strong time management, problem-solving, communication, adaptability, teamwork, and interpersonal skills, along with experience in graphic design, coding, web development, video editing, and user interface design.</P>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <!--tech stack-->
+        <div id="techStackComponent" class="container">
+            <h1 class="text-center" style="color: var(--headingColor)">Tech stack</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 bg">
+                <div class="col my-2">
+                    <div class="card bg-dark bg-opacity-50 rounded-4">
+                        <div class="card-body d-grid justify-content-center">
+                            <img 
+                            data-aos="zoom-in"
+                            data-aos-easing="ease-in"
+                            data-aos-delay="350"
+                            src="public/icon/html.png" alt="" class="icons">
+                            <h3 
+                            data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in"
+                            data-aos-delay="700"
+                            data-aos-offset="0"
+                            class="card-title text-center text-light">HTML</h3>
+        
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-2">
+                    <div class="card bg-dark bg-opacity-50 rounded-4">
+                        <div class="card-body d-grid justify-content-center">
+                            <img 
+                            data-aos="zoom-in"
+                            data-aos-easing="ease-in"
+                            data-aos-delay="350"
+                            src="public/icon/CSS.png" alt="" class="icons">
+                            <h3  data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in"
+                            data-aos-delay="700"
+                            data-aos-offset="0"
+                            class="card-title text-center text-light">CSS</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-2">
+                    <div class="card bg-dark bg-opacity-50 rounded-4">
+                        <div class="card-body d-grid justify-content-center">
+                            <img 
+                            data-aos="zoom-in"
+                            data-aos-easing="ease-in"
+                            data-aos-delay="350"
+                            src="public/icon/boostrap.png" alt="" class="icons">
+                            <h3  data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in"
+                            data-aos-delay="700"
+                            data-aos-offset="0"
+                            class="card-title text-center text-light">Boostrap</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-2 ">
+                    <div class="card bg-dark bg-opacity-50 rounded-4">
+                        <div class="card-body d-grid justify-content-center">
+                            <img 
+                            data-aos="zoom-in"
+                            data-aos-easing="ease-in"
+                            data-aos-delay="350"
+                            src="public/icon/JS.png" alt="" class="icons">
+                            <h3  data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in"
+                            data-aos-delay="700"
+                            data-aos-offset="0"
+                            class="card-title text-center text-light">JavaScript</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-2">
+                    <div class="card bg-dark bg-opacity-50 rounded-4">
+                        <div class="card-body d-grid justify-content-center">
+                            <img 
+                            data-aos="zoom-in"
+                            data-aos-easing="ease-in"
+                            data-aos-delay="350"
+                            src="public/icon/angular.png" alt="" class="icons">
+                            <h3  data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in"
+                            data-aos-delay="700"
+                            data-aos-offset="0"
+                            class="card-title text-center text-light ">Angular</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-2 ">
+                    <div class="card bg-dark bg-opacity-50 rounded-4">
+                        <div class="card-body d-grid justify-content-center">
+                            <img 
+                            data-aos="zoom-in"
+                            data-aos-easing="ease-in"
+                            data-aos-delay="350"
+                            src="public/icon/springboot.png" alt="" class="icons">
+                            <h3  data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in"
+                            data-aos-delay="700"
+                            data-aos-offset="0"
+                            class="card-title text-center text-light">Spring Boot</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--project component-->
+
+      <div id="projectComponent" class="my-4 container-fuild">
+        <h1 class="text-center my-4" style="color: var(--headingColor);">My Projects</h1>
+
+        <div class="container my-3">
+            <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col my-2">
+                    <div class="card bg-dark bg-opacity-50 rounded-4">
+                        <div class="card-body d-grid justify-content-center">
+                            <h3 class="card-title text-center text-light">Gym font-end </h3>
+                            <h5 class="mb-4 text-light">
+                                User Interface for a Gym website
+                            </h5>
+                            <p class="mb-4 text-light">
+                                Developed a responsive and user-friendly interface for a gym using Bootstrap, css for
+                                styling,Bootstrap Icons for visual elements and using little bit of javascript for
+                                animation.
+                            </p>
+                            <p class="text-secondary fw-semibold">
+                                Technologies: Bootstrap, Bootstrap Icons, Html ,css ,javascript
+                            </p>
+                            <a class="text-decoration-underline text-center" 
+                            style="color: var(--linkColor);"
+                                href="https://github.com/YasasSri2002/web-site-for-a-gym">View on
+                                Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-2">
+                    <div class="card bg-dark bg-opacity-50 rounded-4">
+                        <div class="card-body d-grid justify-content-center">
+                            <h3 class="card-title text-center text-light">Employee management backend </h3>
+                            <h5 class="mb-4 text-light">
+                                API and Server-side Logic for Employee Management
+                            </h5>
+                            <p class="mb-4 text-light">
+                                Built the backend for Employee management system, handling data management and business
+                                logic with Spring Boot, Spring Data JPA, and Lombok.
+                            </p>
+                            <p class="text-secondary fw-semibold">
+                                Technologies: Java, Spring Boot, Spring Data JPA, Lombok
+                            </p>
+                            <a class="text-decoration-underline text-center" style="color: var(--linkColor);"
+                                href="https://github.com/YasasSri2002/Employee-backend-system">View on
+                                Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+      <!--contact me component-->
+<div id="contactMeComponent">
+      
+</div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+</body>
+
+</html>
