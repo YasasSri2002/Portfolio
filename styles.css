@@ -1,3 +1,18 @@
 .color{
     color: #e8e8e8fc;
 }
+/* Custom styles to complement Tailwind */
+      .section-padding {
+        padding: 5rem 1rem;
+      }
+      
+      @media (min-width: 768px) {
+        .section-padding {
+          padding: 6rem 2rem;
+        }
+      }
+      
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
