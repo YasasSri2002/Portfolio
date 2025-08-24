@@ -1,4 +1,15 @@
- document.addEventListener('DOMContentLoaded', function() {
+  function aosInit() {
+    AOS.init({
+      duration: 600,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    });
+  }
+  window.addEventListener('load', aosInit);
+
+
+document.addEventListener('DOMContentLoaded', function() {
      const mobileMenueToggle = document.getElementById('mobileMenueToggle');
      if (mobileMenueToggle) {
          mobileMenueToggle.addEventListener('click', () => {
